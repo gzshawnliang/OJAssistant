@@ -67,9 +67,9 @@ int main()
 
 The program auto fill fields when create file:
 
-| fill name     | description                                                              | 
+| field name     | description                                                              | 
 | ---------     | -------------------------------------------------------------- | 
-| ${Name}$      | the problem name from online judge.                            |       
+| {Name}      | the problem name from online judge.                            |       
 | ${Author}$    | coder name.                            |       
 | ${CreateTime}$      | date time when create the file.                            |       
 | ${Url}$      | the problem url from online judge.                            |       
