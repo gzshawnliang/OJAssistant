@@ -9,13 +9,10 @@ Online Judge Assistant is designed for Codeforces and the other online judge sys
 
 ## System requirements
 
-- Windows
-- Windows 10 
-- Windows 8.x (Desktop)
-- Windows 7 SP1
-- Windows Vista SP2
+- Windows Vista SP2/7 SP1/8.x/10 
 - Windows Server 2008 R2 SP1 (64-bit)
 - Windows Server 2012 and 2012 R2 (64-bit)
+- Windows Server 2016 +
 - RAM: 128 MB
 - Disk space: 10 MB
 - Processor: Minimum Pentium 2 266 MHz processor
