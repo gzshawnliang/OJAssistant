@@ -2,10 +2,10 @@
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
-Today, I want to contribute to Codeforces community, because I received much benefit 
+Today, I want to contribute to Codeforces community, because I received much benefit and fun 
 from Codeforces and I appreciate for them. 
 
-Online Judge Assistant is designed for Codeforces and the other online judge system.It can create files quickly for the Codeforces contests.The files can create from custom template.
+Online Judge Assistant is designed for Codeforces and the other online judge system. It can create files quickly for the Codeforces contests.The files can create from custom template locally.
 
 ## System requirements
 
