@@ -77,7 +77,7 @@
             this.txtProblemId.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtProblemId.Name = "txtProblemId";
             this.txtProblemId.Size = new System.Drawing.Size(754, 24);
-            this.txtProblemId.TabIndex = 4;
+            this.txtProblemId.TabIndex = 8;
             this.txtProblemId.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtProblemId_KeyDown);
             // 
             // butGo
@@ -88,7 +88,7 @@
             this.butGo.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.butGo.Name = "butGo";
             this.butGo.Size = new System.Drawing.Size(101, 28);
-            this.butGo.TabIndex = 5;
+            this.butGo.TabIndex = 9;
             this.butGo.Text = "Go";
             this.butGo.UseVisualStyleBackColor = true;
             this.butGo.Click += new System.EventHandler(this.butGo_Click);
@@ -110,7 +110,7 @@
             this.listView1.Name = "listView1";
             this.listView1.OwnerDraw = true;
             this.listView1.Size = new System.Drawing.Size(754, 357);
-            this.listView1.TabIndex = 6;
+            this.listView1.TabIndex = 10;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             this.listView1.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.listView1_ColumnClick);
@@ -127,7 +127,7 @@
             this.butOK.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.butOK.Name = "butOK";
             this.butOK.Size = new System.Drawing.Size(101, 31);
-            this.butOK.TabIndex = 15;
+            this.butOK.TabIndex = 18;
             this.butOK.Text = "OK";
             this.butOK.UseVisualStyleBackColor = true;
             this.butOK.Click += new System.EventHandler(this.butOK_Click);
@@ -140,7 +140,7 @@
             this.butCancel.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.butCancel.Name = "butCancel";
             this.butCancel.Size = new System.Drawing.Size(101, 31);
-            this.butCancel.TabIndex = 16;
+            this.butCancel.TabIndex = 19;
             this.butCancel.Text = "Quit";
             this.butCancel.UseVisualStyleBackColor = true;
             this.butCancel.Click += new System.EventHandler(this.butCancel_Click);
@@ -203,7 +203,7 @@
             this.txtWorkingDir.Name = "txtWorkingDir";
             this.txtWorkingDir.ReadOnly = true;
             this.txtWorkingDir.Size = new System.Drawing.Size(754, 21);
-            this.txtWorkingDir.TabIndex = 8;
+            this.txtWorkingDir.TabIndex = 11;
             // 
             // butBrowse
             // 
@@ -213,7 +213,7 @@
             this.butBrowse.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.butBrowse.Name = "butBrowse";
             this.butBrowse.Size = new System.Drawing.Size(101, 29);
-            this.butBrowse.TabIndex = 9;
+            this.butBrowse.TabIndex = 12;
             this.butBrowse.Text = "Browse";
             this.butBrowse.UseVisualStyleBackColor = true;
             this.butBrowse.Click += new System.EventHandler(this.butBrowse_Click);
@@ -238,7 +238,7 @@
             this.txtAuthor.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtAuthor.Name = "txtAuthor";
             this.txtAuthor.Size = new System.Drawing.Size(754, 24);
-            this.txtAuthor.TabIndex = 10;
+            this.txtAuthor.TabIndex = 13;
             // 
             // txtError
             // 
@@ -364,7 +364,7 @@
             this.sourceJava.Location = new System.Drawing.Point(59, 3);
             this.sourceJava.Name = "sourceJava";
             this.sourceJava.Size = new System.Drawing.Size(55, 20);
-            this.sourceJava.TabIndex = 12;
+            this.sourceJava.TabIndex = 15;
             this.sourceJava.Text = "Java";
             this.sourceJava.UseVisualStyleBackColor = true;
             this.sourceJava.Click += new System.EventHandler(this.sourceJava_Click);
@@ -376,7 +376,7 @@
             this.sourceCpp.Location = new System.Drawing.Point(3, 3);
             this.sourceCpp.Name = "sourceCpp";
             this.sourceCpp.Size = new System.Drawing.Size(52, 20);
-            this.sourceCpp.TabIndex = 11;
+            this.sourceCpp.TabIndex = 14;
             this.sourceCpp.TabStop = true;
             this.sourceCpp.Text = "C++";
             this.sourceCpp.UseVisualStyleBackColor = true;
@@ -463,7 +463,7 @@
             this.chkIntelliJ.Location = new System.Drawing.Point(90, 3);
             this.chkIntelliJ.Name = "chkIntelliJ";
             this.chkIntelliJ.Size = new System.Drawing.Size(99, 20);
-            this.chkIntelliJ.TabIndex = 14;
+            this.chkIntelliJ.TabIndex = 17;
             this.chkIntelliJ.Text = "IntelliJ IDEA";
             this.chkIntelliJ.UseVisualStyleBackColor = true;
             this.chkIntelliJ.CheckedChanged += new System.EventHandler(this.IntelliJ_CheckedChanged);
@@ -475,7 +475,7 @@
             this.chkvscode.Location = new System.Drawing.Point(2, 3);
             this.chkvscode.Name = "chkvscode";
             this.chkvscode.Size = new System.Drawing.Size(82, 20);
-            this.chkvscode.TabIndex = 13;
+            this.chkvscode.TabIndex = 16;
             this.chkvscode.TabStop = true;
             this.chkvscode.Text = "VS Code";
             this.chkvscode.UseVisualStyleBackColor = true;
