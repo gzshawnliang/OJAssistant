@@ -1,5 +1,7 @@
 # Online Judge Assistant
 
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+
 Today, I want to contribute to Codeforces community, because I received much benefit 
 from Codeforces and I appreciate for them. 
 
