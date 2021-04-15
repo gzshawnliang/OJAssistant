@@ -13,8 +13,7 @@ Online Judge Assistant is designed for Codeforces and the other online judge sys
 - Windows Server 2008 R2 SP1 (64-bit)
 - Windows Server 2012 and 2012 R2 (64-bit)
 - Windows Server 2016 +
-- RAM: 128 MB
-- Disk space: 10 MB
+- RAM: 128 MB, Disk space: 10 MB
 - Processor: Minimum Pentium 2 266 MHz processor
 - Microsoft .NET Framework 4
 
@@ -36,7 +35,7 @@ Online Judge Assistant is designed for Codeforces and the other online judge sys
 * @Url:            {Url}
 * @Description:    {Description}
 -------------------------------------------------------------------
-        _
+      _
      /(|
     (  :
    __\  \  _____
@@ -68,17 +67,15 @@ int main()
 
 The program auto fill fields when create file:
 
-| field name    | description                                                              | 
-| ---------     | -------------------------------------------------------------- | 
-| {Name}        | the problem name from online judge.                            |       
-| {Author}      | coder name.                            |       
-| {CreateTime}  | date time when create the file.                            |       
-| {Url}         | the problem url from online judge.                            |       
-| {Description} | the problem Description from online judge.                            |       
-| {fileNameNoExtension}      | auto fileName without Extension.                            |       
+| field name              | description                                                              | 
+| ---------               | -------------------------------------------------------------- | 
+| {Name}                  | the problem name from online judge.                            |       
+| {Author}                | coder name.                            |       
+| {CreateTime}            | date time when create the file.                            |       
+| {Url}                   | the problem url from online judge.                            |       
+| {Description}           | the problem Description from online judge.                            |       
+| {fileNameNoExtension}   | auto fileName without Extension.                            |       
 
 
 ## Demonstration
 ![](OJAssistantUI.gif)
-
-
