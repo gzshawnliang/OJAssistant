@@ -19,6 +19,11 @@ Online Judge Assistant is designed for Codeforces and the other online judge sys
 - Processor: Minimum Pentium 2 266 MHz processor
 - Microsoft .NET Framework 4
 
+## How to use
+- unpack the release zip file.
+- run OJAssistantUI.exe.
+- enjoy!
+
 ## How to custom source code template
 - Create file template.cpp in installed directory.
 - You can edit your template.cpp  like this:
