@@ -7,6 +7,10 @@ from Codeforces and I appreciate for them.
 
 Online Judge Assistant is designed for Codeforces and the other online judge system. It can create files quickly for the Codeforces contests.The files can create from custom template locally.
 
+## Feature
+- Auto create source code files(.cpp;.java) from contest or single problem.
+- Custom source code(.cpp;.java) template.
+
 ## System requirements
 
 - Windows Vista SP2/7 SP1/8.x/10 
