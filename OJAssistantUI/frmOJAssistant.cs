@@ -597,21 +597,9 @@ namespace OJAssistantUI
             this.listView1.BeginUpdate();
 
             Debug.WriteLine(s);
-            Debug.WriteLine(inputFileNode1.InnerText);
+            Debug.WriteLine(titleNode2.InnerText);
 
-            string codefileName = string.Empty;
-            /*
-             从以下字符串查找paintbarn.in
-             INPUT FORMAT (file paintbarn.in):
-            */
-            Regex reg = new Regex(@"\w*\.\w*");
-            Match result = reg.Match(inputFileNode1.InnerText);
-            if (result.Success)
-            {
-                Debug.WriteLine( result.Value);
-                codefileName = result.Value.Split(".".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)[0]+$".{sourceCodeFileExt}";
-            }
-
+            string codefileName = s + $".{sourceCodeFileExt}";
 
             ListViewItem lvi = new ListViewItem(titleNode2.InnerText.Trim());
             lvi.SubItems.Add(codefileName);

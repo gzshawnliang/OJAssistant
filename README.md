@@ -7,6 +7,10 @@ from Codeforces and I appreciate for them.
 
 Online Judge Assistant is designed for Codeforces and the other online judge system. It can create files quickly for the Codeforces contests.The files can create from custom template locally.
 
+## Demonstration
+![](OJAssistantUI.gif)
+
+
 ## Feature
 - Auto create source code files(.cpp;.java) from contest or single problem.
 - Custom source code(.cpp;.java) template.
@@ -23,8 +27,29 @@ Online Judge Assistant is designed for Codeforces and the other online judge sys
 
 ## How to use
 - unpack the release zip file.
-- run OJAssistantUI.exe.
+- just run ```OJAssistantUI.exe```.
 - enjoy!
+
+### The input field description
+
+| field name   | description                                                   |
+| ---------    | --------------------------------------------------------------|
+| problemId    | the problemId or contestId from online judge.                 |
+| Author       | your name.                                                    |
+| Working Dir  | the directory where source code create.                       |
+
+### The problemId field description
+maybe add more in next release.
+
+| problemId                 | description                                                   |
+| ---------                 | --------------------------------------------------------------|
+| codeforces                | the problemId or contestId from codeforces.<br>Examples: ```1151``` or ```1151A``` |
+| UVa                       | UVa online-judge problemId.<br>Examples:```10337```                                                    |
+| USACO                     | the problem URL from usaco. <br>Examples:<br>```http://www.usaco.org/index.php?page=viewproblem2&cpid=1113```                      |
+| SPOJ                      | the problem URL from Sphere online judge . <br>Examples:<br>```https://www.spoj.com/problems/ONP/```                      |
+| Timus Online Judge(Ural)  | the problem URL from Timus Online Judge . <br>Examples:<br>```https://acm.timus.ru/problem.aspx?space=1&num=1004```                      |
+| POJ                       | the problem URL from PKU JudgeOnline . <br>Examples:<br>```http://poj.org/problem?id=1004```                      |
+| HDU                       | the problem URL from HDU Online Judge System . <br>Examples:<br>```http://acm.hdu.edu.cn/showproblem.php?pid=1002```                      |
 
 ## How to custom source C++ code template
 - Create file template.cpp in installed directory.
@@ -212,5 +237,3 @@ The program auto fill fields when create file:
 ## How to use Online Judge Assistant in IntelliJ IDEA
 todo
 
-## Demonstration
-![](OJAssistantUI.gif)
