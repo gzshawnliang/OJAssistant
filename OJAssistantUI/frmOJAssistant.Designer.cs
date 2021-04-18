@@ -63,6 +63,7 @@
             this.picIntelliJOK = new System.Windows.Forms.PictureBox();
             this.chkIntelliJ = new System.Windows.Forms.RadioButton();
             this.chkvscode = new System.Windows.Forms.RadioButton();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picIntelliJWarning)).BeginInit();
@@ -149,7 +150,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(13, 81);
+            this.label1.Location = new System.Drawing.Point(13, 75);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 16);
@@ -160,7 +161,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(13, 114);
+            this.label2.Location = new System.Drawing.Point(13, 123);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 16);
@@ -176,9 +177,9 @@
             this.lblContest.Location = new System.Drawing.Point(13, 18);
             this.lblContest.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblContest.Name = "lblContest";
-            this.lblContest.Size = new System.Drawing.Size(529, 18);
+            this.lblContest.Size = new System.Drawing.Size(494, 18);
             this.lblContest.TabIndex = 7;
-            this.lblContest.Text = "Input the Codeforces/UVa problemId or USACO URL or SPOJ URL, please ";
+            this.lblContest.Text = "Input the Codeforces/UVa problemId or other OJ problem URL, please ";
             // 
             // label3
             // 
@@ -480,12 +481,24 @@
             this.chkvscode.Text = "VS Code";
             this.chkvscode.UseVisualStyleBackColor = true;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Location = new System.Drawing.Point(13, 92);
+            this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(68, 16);
+            this.label6.TabIndex = 21;
+            this.label6.Text = "ContestId";
+            // 
             // frmOJAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.butCancel;
             this.ClientSize = new System.Drawing.Size(1008, 600);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.emptyCode);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label5);
@@ -568,6 +581,7 @@
         private System.Windows.Forms.PictureBox picIntelliJWarning;
         private System.Windows.Forms.Label lblIntelliJWarning;
         private System.Windows.Forms.Label lblIntelliJOK;
+        private System.Windows.Forms.Label label6;
     }
 }
 
