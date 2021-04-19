@@ -30,12 +30,12 @@ namespace OJAssistantUI
             _moduleFileName = string.Empty;
             _iprFileName = string.Empty;
 
-            //获取ipr项目文件路径
+            //get ipr project file and path
             _iprFileName = FindFileInDirectory(dirName, "*.ipr");
             if (!string.IsNullOrEmpty(_iprFileName))
                 HandleIpr(_iprFileName);
 
-            //获取模块名称和路径
+            //get module name and path
             _fullModuleFileName = FindFileInDirectory(_initDirName, _moduleFileName);
             if (!string.IsNullOrEmpty(_fullModuleFileName))
                 ModuleDir = new FileInfo(_fullModuleFileName).Directory.FullName;
@@ -70,11 +70,11 @@ namespace OJAssistantUI
             string intelliJExe = string.Empty;
             isRunning = false;
 
-            //从进程中获取vscode路径
+            //get idea path from Processes
             Process[] ps = Process.GetProcessesByName("idea64");
             foreach (Process p in ps)
             {
-                //输出进程路径
+                //output path
                 if (p.MainModule.FileVersionInfo.FileDescription == "IntelliJ IDEA")
                 {
                     Debug.WriteLine(p.MainModule.FileName);
@@ -84,7 +84,7 @@ namespace OJAssistantUI
                 }
             }
 
-            //获取不到,缺省路径启动一个进程
+            //intelliJExe path not existed,start one
             if (string.IsNullOrEmpty(intelliJExe))
             {
                 string intelliJPath = System.Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles) + @"\JetBrains";
@@ -227,11 +227,11 @@ namespace OJAssistantUI
 
         public void ProcessFile(string pathName,string fileName)
         {
-            //创建源码目录
+            //create source code directory
             if (!string.IsNullOrEmpty(_fullModuleFileName))
                 HandleModuleFile(_fullModuleFileName, pathName);
 
-            //创建编译选项
+            //create compile option
             string iwsFileName = FindFileInDirectory(_initDirName, "*.iws");
             if (!string.IsNullOrEmpty(iwsFileName))
             {
