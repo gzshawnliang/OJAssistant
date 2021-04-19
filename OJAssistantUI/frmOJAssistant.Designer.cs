@@ -34,7 +34,7 @@
             this.listView1 = new System.Windows.Forms.ListView();
             this.butOK = new System.Windows.Forms.Button();
             this.butCancel = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblProblemId = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lblContest = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -63,7 +63,6 @@
             this.picIntelliJOK = new System.Windows.Forms.PictureBox();
             this.chkIntelliJ = new System.Windows.Forms.RadioButton();
             this.chkvscode = new System.Windows.Forms.RadioButton();
-            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picIntelliJWarning)).BeginInit();
@@ -74,10 +73,10 @@
             // 
             this.txtProblemId.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtProblemId.Location = new System.Drawing.Point(130, 81);
+            this.txtProblemId.Location = new System.Drawing.Point(160, 81);
             this.txtProblemId.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtProblemId.Name = "txtProblemId";
-            this.txtProblemId.Size = new System.Drawing.Size(754, 24);
+            this.txtProblemId.Size = new System.Drawing.Size(724, 24);
             this.txtProblemId.TabIndex = 8;
             this.txtProblemId.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtProblemId_KeyDown);
             // 
@@ -106,11 +105,11 @@
             this.listView1.HideSelection = false;
             this.listView1.HotTracking = true;
             this.listView1.HoverSelection = true;
-            this.listView1.Location = new System.Drawing.Point(130, 115);
+            this.listView1.Location = new System.Drawing.Point(160, 115);
             this.listView1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.listView1.Name = "listView1";
             this.listView1.OwnerDraw = true;
-            this.listView1.Size = new System.Drawing.Size(754, 357);
+            this.listView1.Size = new System.Drawing.Size(724, 357);
             this.listView1.TabIndex = 10;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -146,16 +145,16 @@
             this.butCancel.UseVisualStyleBackColor = true;
             this.butCancel.Click += new System.EventHandler(this.butCancel_Click);
             // 
-            // label1
+            // lblProblemId
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(13, 75);
-            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 16);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "ProblemId";
+            this.lblProblemId.AutoSize = true;
+            this.lblProblemId.BackColor = System.Drawing.Color.Transparent;
+            this.lblProblemId.Location = new System.Drawing.Point(13, 84);
+            this.lblProblemId.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblProblemId.Name = "lblProblemId";
+            this.lblProblemId.Size = new System.Drawing.Size(71, 16);
+            this.lblProblemId.TabIndex = 5;
+            this.lblProblemId.Text = "ProblemId";
             // 
             // label2
             // 
@@ -199,11 +198,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtWorkingDir.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txtWorkingDir.ForeColor = System.Drawing.Color.Maroon;
-            this.txtWorkingDir.Location = new System.Drawing.Point(130, 480);
+            this.txtWorkingDir.Location = new System.Drawing.Point(160, 480);
             this.txtWorkingDir.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtWorkingDir.Name = "txtWorkingDir";
             this.txtWorkingDir.ReadOnly = true;
-            this.txtWorkingDir.Size = new System.Drawing.Size(754, 21);
+            this.txtWorkingDir.Size = new System.Drawing.Size(724, 21);
             this.txtWorkingDir.TabIndex = 11;
             // 
             // butBrowse
@@ -235,10 +234,10 @@
             // 
             this.txtAuthor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtAuthor.Location = new System.Drawing.Point(130, 509);
+            this.txtAuthor.Location = new System.Drawing.Point(160, 509);
             this.txtAuthor.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtAuthor.Name = "txtAuthor";
-            this.txtAuthor.Size = new System.Drawing.Size(754, 24);
+            this.txtAuthor.Size = new System.Drawing.Size(724, 24);
             this.txtAuthor.TabIndex = 13;
             // 
             // txtError
@@ -248,12 +247,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtError.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txtError.ForeColor = System.Drawing.Color.Maroon;
-            this.txtError.Location = new System.Drawing.Point(130, 114);
+            this.txtError.Location = new System.Drawing.Point(160, 114);
             this.txtError.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txtError.Multiline = true;
             this.txtError.Name = "txtError";
             this.txtError.ReadOnly = true;
-            this.txtError.Size = new System.Drawing.Size(754, 357);
+            this.txtError.Size = new System.Drawing.Size(724, 357);
             this.txtError.TabIndex = 7;
             this.txtError.Visible = false;
             // 
@@ -261,7 +260,7 @@
             // 
             this.codeforces.AutoSize = true;
             this.codeforces.Checked = true;
-            this.codeforces.Location = new System.Drawing.Point(133, 54);
+            this.codeforces.Location = new System.Drawing.Point(160, 54);
             this.codeforces.Name = "codeforces";
             this.codeforces.Size = new System.Drawing.Size(96, 20);
             this.codeforces.TabIndex = 0;
@@ -273,7 +272,7 @@
             // uva
             // 
             this.uva.AutoSize = true;
-            this.uva.Location = new System.Drawing.Point(235, 54);
+            this.uva.Location = new System.Drawing.Point(262, 54);
             this.uva.Name = "uva";
             this.uva.Size = new System.Drawing.Size(51, 20);
             this.uva.TabIndex = 1;
@@ -284,7 +283,7 @@
             // usaco
             // 
             this.usaco.AutoSize = true;
-            this.usaco.Location = new System.Drawing.Point(292, 54);
+            this.usaco.Location = new System.Drawing.Point(319, 54);
             this.usaco.Name = "usaco";
             this.usaco.Size = new System.Drawing.Size(74, 20);
             this.usaco.TabIndex = 2;
@@ -295,7 +294,7 @@
             // spoj
             // 
             this.spoj.AutoSize = true;
-            this.spoj.Location = new System.Drawing.Point(370, 54);
+            this.spoj.Location = new System.Drawing.Point(397, 54);
             this.spoj.Name = "spoj";
             this.spoj.Size = new System.Drawing.Size(61, 20);
             this.spoj.TabIndex = 3;
@@ -306,7 +305,7 @@
             // ural
             // 
             this.ural.AutoSize = true;
-            this.ural.Location = new System.Drawing.Point(437, 54);
+            this.ural.Location = new System.Drawing.Point(464, 54);
             this.ural.Name = "ural";
             this.ural.Size = new System.Drawing.Size(185, 20);
             this.ural.TabIndex = 4;
@@ -317,7 +316,7 @@
             // poj
             // 
             this.poj.AutoSize = true;
-            this.poj.Location = new System.Drawing.Point(628, 54);
+            this.poj.Location = new System.Drawing.Point(655, 54);
             this.poj.Name = "poj";
             this.poj.Size = new System.Drawing.Size(52, 20);
             this.poj.TabIndex = 5;
@@ -328,7 +327,7 @@
             // hdu
             // 
             this.hdu.AutoSize = true;
-            this.hdu.Location = new System.Drawing.Point(686, 54);
+            this.hdu.Location = new System.Drawing.Point(713, 54);
             this.hdu.Name = "hdu";
             this.hdu.Size = new System.Drawing.Size(54, 20);
             this.hdu.TabIndex = 6;
@@ -354,7 +353,7 @@
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.Controls.Add(this.sourceJava);
             this.panel1.Controls.Add(this.sourceCpp);
-            this.panel1.Location = new System.Drawing.Point(133, 546);
+            this.panel1.Location = new System.Drawing.Point(160, 546);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(123, 34);
             this.panel1.TabIndex = 16;
@@ -386,7 +385,7 @@
             // emptyCode
             // 
             this.emptyCode.AutoSize = true;
-            this.emptyCode.Location = new System.Drawing.Point(746, 54);
+            this.emptyCode.Location = new System.Drawing.Point(773, 54);
             this.emptyCode.Name = "emptyCode";
             this.emptyCode.Size = new System.Drawing.Size(151, 20);
             this.emptyCode.TabIndex = 7;
@@ -481,24 +480,12 @@
             this.chkvscode.Text = "VS Code";
             this.chkvscode.UseVisualStyleBackColor = true;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(13, 92);
-            this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 16);
-            this.label6.TabIndex = 21;
-            this.label6.Text = "ContestId";
-            // 
             // frmOJAssistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.butCancel;
             this.ClientSize = new System.Drawing.Size(1008, 600);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.emptyCode);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label5);
@@ -516,7 +503,7 @@
             this.Controls.Add(this.txtWorkingDir);
             this.Controls.Add(this.lblContest);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblProblemId);
             this.Controls.Add(this.butCancel);
             this.Controls.Add(this.butOK);
             this.Controls.Add(this.listView1);
@@ -552,7 +539,7 @@
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Button butOK;
         private System.Windows.Forms.Button butCancel;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblProblemId;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblContest;
         private System.Windows.Forms.Label label3;
@@ -581,7 +568,6 @@
         private System.Windows.Forms.PictureBox picIntelliJWarning;
         private System.Windows.Forms.Label lblIntelliJWarning;
         private System.Windows.Forms.Label lblIntelliJOK;
-        private System.Windows.Forms.Label label6;
     }
 }
 

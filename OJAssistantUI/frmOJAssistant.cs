@@ -179,7 +179,6 @@ namespace OJAssistantUI
         //https://codeforces.com/apiHelp/objects#Contest
         private string CfContestType;
 
-
         private string sourceCodeFileExt="cpp";
 
         public frmOJAssistant()
@@ -1595,6 +1594,14 @@ namespace OJAssistantUI
                         this.listView1.Enabled = true;
                         this.butGo.Enabled = true;
                     }
+
+                    if (objRadioButton.Name == "codeforces")
+                        lblProblemId.Text = "ProblemId/ContestId";
+                    else if (objRadioButton.Name == "uva")
+                        lblProblemId.Text = "ProblemId";
+                    else
+                        lblProblemId.Text = "Problem URL";
+
                 }
                 CheckIsReady();
             }

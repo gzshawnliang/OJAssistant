@@ -22,14 +22,14 @@ Online Judge Assistant is designed for Codeforces and the other online judge sys
 - Windows Vista SP2/7 SP1/8.x/10 
 - Windows Server 2008 R2 SP1 (64-bit)
 - Windows Server 2012 and 2012 R2 (64-bit)
-- Windows Server 2016 +
+- Windows Server 2016+
 - RAM: 128 MB, Disk space: 10 MB
 - Processor: Minimum Pentium 2 266 MHz processor
 - Microsoft .NET Framework 4
 
 ## How to use
 - unpack the release zip file.
-- just run ```OJAssistantUI.exe```.
+- just run `OJAssistantUI.exe`.
 - enjoy!
 
 ### The input field description
@@ -43,15 +43,15 @@ Online Judge Assistant is designed for Codeforces and the other online judge sys
 ### The problemId field description
 maybe add more in next release.
 
-| problemId                 | description                                                   |
-| ---------                 | --------------------------------------------------------------|
-| codeforces                | the problemId or contestId from codeforces.<br>Examples: ```1151``` or ```1151A``` |
-| UVa                       | UVa online-judge problemId.<br>Examples:```10337```                                                    |
-| USACO                     | the problem URL from usaco. <br>Examples:<br>```http://www.usaco.org/index.php?page=viewproblem2&cpid=1113```                      |
-| SPOJ                      | the problem URL from Sphere online judge . <br>Examples:<br>```https://www.spoj.com/problems/ONP/```                      |
-| Timus Online Judge(Ural)  | the problem URL from Timus Online Judge . <br>Examples:<br>```https://acm.timus.ru/problem.aspx?space=1&num=1004```                      |
-| POJ                       | the problem URL from PKU JudgeOnline . <br>Examples:<br>```http://poj.org/problem?id=1004```                      |
-| HDU                       | the problem URL from HDU Online Judge System . <br>Examples:<br>```http://acm.hdu.edu.cn/showproblem.php?pid=1002```                      |
+| problemId                   | description                                                   |
+| --------------------------- | --------------------------------------------------------------|
+| `codeforces`                | the problemId or contestId from codeforces.<br>Examples: `1151` or `1151A` |
+| `UVa`                       | UVa online-judge problemId.<br>Examples:`10337`                                                    |
+| `USACO`                     | the problem URL from usaco. <br>Examples:<br>`http://www.usaco.org/index.php?page=viewproblem2&cpid=1113`                      |
+| `SPOJ`                      | the problem URL from Sphere online judge . <br>Examples:<br>`https://www.spoj.com/problems/ONP/`                      |
+| `Timus Online Judge(Ural)`  | the problem URL from Timus Online Judge . <br>Examples:<br>`https://acm.timus.ru/problem.aspx?space=1&num=1004`                      |
+| `POJ`                       | the problem URL from PKU JudgeOnline . <br>Examples:<br>`http://poj.org/problem?id=1004`                      |
+| `HDU`                       | the problem URL from HDU Online Judge System . <br>Examples:<br>`http://acm.hdu.edu.cn/showproblem.php?pid=1002`                      |
 
 ## How to custom source C++ code template
 - Create file template.cpp in installed directory.
@@ -226,14 +226,14 @@ public class {fileNameNoExtension}
 
 The program auto fill fields when create file:
 
-| field name              | description                                                              | 
-| ---------               | -------------------------------------------------------------- | 
-| {Name}                  | the problem name from online judge.                            |       
-| {Author}                | coder name.                            |       
-| {CreateTime}            | date time when create the file.                            |       
-| {Url}                   | the problem url from online judge.                            |       
-| {Description}           | the problem Description from online judge.                            |       
-| {fileNameNoExtension}   | auto fileName without Extension.                            |       
+| field name                | description                                                              | 
+| ---------                 | ----------------------------------------------| 
+| `{Name}`                  | the problem name from online judge.           |       
+| `{Author}`                | coder name.                                   |       
+| `{CreateTime}`            | date time when create the file.               |       
+| `{Url}`                   | the problem url from online judge.            |       
+| `{Description}`           | the problem Description from online judge.    |       
+| `{fileNameNoExtension}`   | auto fileName without Extension.              |       
 
 
 ## How to use Online Judge Assistant in IntelliJ IDEA
