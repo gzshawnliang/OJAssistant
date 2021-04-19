@@ -152,9 +152,9 @@
             this.lblProblemId.Location = new System.Drawing.Point(13, 84);
             this.lblProblemId.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblProblemId.Name = "lblProblemId";
-            this.lblProblemId.Size = new System.Drawing.Size(71, 16);
+            this.lblProblemId.Size = new System.Drawing.Size(135, 16);
             this.lblProblemId.TabIndex = 5;
-            this.lblProblemId.Text = "ProblemId";
+            this.lblProblemId.Text = "ProblemId/ContestId";
             // 
             // label2
             // 

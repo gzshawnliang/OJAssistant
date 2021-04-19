@@ -13,7 +13,7 @@ Online Judge Assistant is designed for Codeforces and the other online judge sys
 
 ## Feature
 - Auto create source code files(.cpp;.java) from contest or single problem.
-- Custom source code(.cpp;.java) template.
+- Custom source code(`.cpp`;`.java`) template.
 - Comment your solution code effectively,like a Pro.
 - Auto start vscode or IntelliJ IDEA.
 
