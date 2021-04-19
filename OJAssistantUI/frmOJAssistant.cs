@@ -33,6 +33,7 @@ namespace OJAssistantUI
         private int contestId=0;
         private Dictionary<string, string> problemDict;
         private readonly string _defaultDir;
+        private string _intelliJExe = string.Empty;
 
         private string inputFileContent;    //USACO SAMPLE INPUT Data
 
@@ -1466,18 +1467,17 @@ namespace OJAssistantUI
 
             System.Diagnostics.Process.Start(vsCodeExe, $"--reuse-window \"{codeFile}\"");
         }
-        
 
         private void RunIntelliJ(string codeFile)
         {
-
-            string intelliJExe = IntelliJ.GetIntelliJExePath(out bool isRunning);
+            if(string.IsNullOrEmpty(_intelliJExe))
+                _intelliJExe = IntelliJ.GetIntelliJExePath(out bool isRunning);
 
             //default path not find idea64,use system path
-            if (!System.IO.File.Exists(intelliJExe))
-                intelliJExe = "idea64";
+            if (!System.IO.File.Exists(_intelliJExe))
+                _intelliJExe = "idea64";
 
-            System.Diagnostics.Process.Start(intelliJExe, $"\"{codeFile}\"");
+            System.Diagnostics.Process.Start(_intelliJExe, $"\"{codeFile}\"");
 
         }
 

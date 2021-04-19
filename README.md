@@ -237,5 +237,10 @@ The program auto fill fields when create file:
 
 
 ## How to use Online Judge Assistant in IntelliJ IDEA
-todo
+- Create IDEA project with format file-based(`.ipr`),including Module name.
+- Select Working dir into IDEA project location.
+
+![](idea.jpg)
+![](OJAssistantIDEA.gif)
+
 
